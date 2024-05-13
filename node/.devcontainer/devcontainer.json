@@ -19,7 +19,9 @@
     "vscode": {
       "extensions": [
         "Vue.volar",
-        "ms-azuretools.vscode-docker"
+        "ms-azuretools.vscode-docker",
+        "GraphQL.vscode-graphql-syntax",
+        "GraphQL.vscode-graphql"
       ]
     }
   }
