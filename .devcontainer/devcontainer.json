@@ -1,0 +1,26 @@
+{
+  "name": "Nodes.js and Typescript Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  // "image": "mcr.microsoft.com/devcontainers/typescript-node",
+  // "features": {
+  //   "ghcr.io/devcontainers/features/github-cli": {
+  //     "version": "latest"
+  //   },
+  //   "ghcr.io/devcontainers/features/common-utils:2": {
+  //     "configureZshAsDefaultShell": true,
+  //     "installOhMyZsh": true,
+  //     "installZsh": true,
+  //     "installOhMyZshConfig": true
+  //   }
+  // },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Vue.volar",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
